@@ -270,7 +270,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1259467628227" ID="ID_36019212" MODIFIED="1262058563204" POSITION="left" TEXT="Tools">
+<node COLOR="#0033ff" CREATED="1259467628227" FOLDED="true" ID="ID_36019212" MODIFIED="1282708124281" POSITION="left" TEXT="Tools">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1210746911302" FOLDED="true" HGAP="16" ID="ID_193956902" MODIFIED="1259467710535" TEXT="Version controls" VSHIFT="-30">
@@ -1601,10 +1601,10 @@ bkup-$this_day.tar.gz --listed-incremental=list
 </node>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841563778" FOLDED="true" ID="ID_1734999776" MODIFIED="1262058556532" POSITION="right" TEXT="Languages">
+<node COLOR="#0033ff" CREATED="1210841563778" ID="ID_1734999776" MODIFIED="1282708126046" POSITION="right" TEXT="Languages">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1210755858075" HGAP="131" ID="ID_1542658544" MODIFIED="1259911453187" TEXT="JAVA" VSHIFT="-346">
+<node COLOR="#00b439" CREATED="1210755858075" FOLDED="true" HGAP="131" ID="ID_1542658544" MODIFIED="1287028681031" TEXT="JAVA" VSHIFT="-346">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font ITALIC="true" NAME="Tahoma" SIZE="16"/>
 <node COLOR="#990000" CREATED="1210756115669" FOLDED="true" ID="ID_1929923666" MODIFIED="1259914184609" TEXT=" Lo&#x1ea1;i d&#x1eef; li&#x1ec7;u">
@@ -8018,7 +8018,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1260246394484" FOLDED="true" ID="ID_140745548" MODIFIED="1261555122784" TEXT="RegExp">
+<node COLOR="#00b439" CREATED="1260246394484" FOLDED="true" ID="ID_140745548" MODIFIED="1287028675218" TEXT="RegExp">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1260246399359" ID="ID_1845428798" MODIFIED="1260246420593" TEXT="K&#xed; t&#x1ef1;">
@@ -8254,9 +8254,20 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 <node COLOR="#111111" CREATED="1260417832140" ID="ID_1093250474" MODIFIED="1260417856875" TEXT="Th&#xea;m comment"/>
 </node>
+<node COLOR="#990000" CREATED="1282708137671" ID="ID_98985558" MODIFIED="1282708150953" TEXT="M&#x1eab;u h&#x1eef;u &#xed;ch">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1282708151734" ID="ID_1612555386" MODIFIED="1282708192546" TEXT="Thay th&#x1ebf; c&#xe1;c ph&#x1ea7;n t&#x1eed; tr&#xf9;ng nhau trong list c&#xe1;ch nhau d&#x1ea5;u ,">
+<node COLOR="#111111" CREATED="1282708193656" ID="ID_961837273" MODIFIED="1282708194718" TEXT="(?&lt;=,|^)([^,]*)(,\1)+(?=,|$)"/>
+<node COLOR="#111111" CREATED="1282708195218" ID="ID_879863693" MODIFIED="1282708201578" TEXT="$1"/>
+</node>
+<node COLOR="#111111" CREATED="1282708215718" ID="ID_648748021" MODIFIED="1282708230218" TEXT="Thay th&#x1ebf; dubple line trong file">
+<node COLOR="#111111" CREATED="1282708231203" ID="ID_727444075" MODIFIED="1282708231671" TEXT="^(.*)(\r?\n\1)+$"/>
+<node COLOR="#111111" CREATED="1282708232312" ID="ID_289107436" MODIFIED="1282708235140" TEXT="$1"/>
 </node>
 </node>
-<node COLOR="#0033ff" CREATED="1210841840575" HGAP="43" ID="ID_1468904384" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1259470405330" POSITION="left" STYLE="fork" TEXT="Web" VSHIFT="10">
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1210841840575" HGAP="43" ID="ID_1468904384" LINK="sams%20-%20Java%20for%20the%20Web%20with%20Servlets_%20JSP_EJB" MODIFIED="1287028692421" POSITION="left" STYLE="fork" TEXT="Web" VSHIFT="10">
 <edge COLOR="#00cccc" STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1240837489319" FOLDED="true" ID="ID_417273820" MODIFIED="1254752369422" STYLE="fork" TEXT="Architecture">
@@ -10811,7 +10822,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1241325363518" FOLDED="true" ID="ID_1531569805" MODIFIED="1259915524281" STYLE="fork" TEXT="JavaScript" VSHIFT="96">
+<node COLOR="#00b439" CREATED="1241325363518" ID="ID_1531569805" MODIFIED="1287028694468" STYLE="fork" TEXT="JavaScript" VSHIFT="96">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1241325432497" ID="ID_1840212066" MODIFIED="1259814185828" STYLE="fork" TEXT="Client-server">
@@ -11013,7 +11024,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 <edge STYLE="bezier"/>
 <icon BUILTIN="desktop_new"/>
 </node>
-<node COLOR="#111111" CREATED="1241339573250" FOLDED="true" ID="ID_894742496" MODIFIED="1259467714762" STYLE="fork" TEXT="Bi&#x1ebf;n v&#x1edb;i t&#xea;n &#x111;&#x1ed9;ng">
+<node COLOR="#111111" CREATED="1241339573250" FOLDED="true" ID="ID_894742496" MODIFIED="1287028705187" STYLE="fork" TEXT="Bi&#x1ebf;n v&#x1edb;i t&#xea;n &#x111;&#x1ed9;ng">
 <edge STYLE="bezier"/>
 <icon BUILTIN="idea"/>
 <icon BUILTIN="ksmiletris"/>
@@ -11024,16 +11035,16 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 <node COLOR="#111111" CREATED="1241326027332" ID="ID_70672005" MODIFIED="1259814196187" STYLE="fork" TEXT="function">
 <edge STYLE="bezier"/>
-<node COLOR="#111111" CREATED="1241326029435" FOLDED="true" ID="ID_1007669272" MODIFIED="1259467714762" STYLE="fork" TEXT="Truy&#x1ec1;n tham s&#x1ed1; m&#x1eb7;c &#x111;&#x1ecb;nh">
+<node COLOR="#111111" CREATED="1241326029435" ID="ID_1007669272" MODIFIED="1287028709578" STYLE="fork" TEXT="Truy&#x1ec1;n tham s&#x1ed1; m&#x1eb7;c &#x111;&#x1ecb;nh">
 <edge STYLE="bezier"/>
 <icon BUILTIN="messagebox_warning"/>
-<node COLOR="#111111" CREATED="1241326042704" FOLDED="true" ID="ID_165619710" MODIFIED="1259467714762" STYLE="fork" TEXT="bi&#x1ebf;n primitive">
+<node COLOR="#111111" CREATED="1241326042704" FOLDED="true" ID="ID_165619710" MODIFIED="1287028717968" STYLE="fork" TEXT="bi&#x1ebf;n primitive">
 <edge STYLE="bezier"/>
 <node COLOR="#111111" CREATED="1241326076803" ID="ID_871326903" MODIFIED="1241702291357" STYLE="fork" TEXT="by value">
 <edge STYLE="bezier"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1241326054561" FOLDED="true" ID="ID_753992840" MODIFIED="1259467714762" STYLE="fork" TEXT="bi&#x1ebf;n object, string, array">
+<node COLOR="#111111" CREATED="1241326054561" FOLDED="true" ID="ID_753992840" MODIFIED="1287028715828" STYLE="fork" TEXT="bi&#x1ebf;n object, string, array">
 <edge STYLE="bezier"/>
 <node COLOR="#111111" CREATED="1241326068752" ID="ID_1085567840" MODIFIED="1241702291357" STYLE="fork" TEXT="by ref">
 <edge STYLE="bezier"/>
@@ -11085,9 +11096,9 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1241328158056" FOLDED="true" ID="ID_533573140" MODIFIED="1259467714762" STYLE="fork" TEXT="Window object">
+<node COLOR="#111111" CREATED="1241328158056" ID="ID_533573140" MODIFIED="1287028723093" STYLE="fork" TEXT="Window object">
 <edge STYLE="bezier"/>
-<node COLOR="#111111" CREATED="1241328177494" FOLDED="true" ID="ID_540726089" MODIFIED="1259467714762" STYLE="fork" TEXT="Properties">
+<node COLOR="#111111" CREATED="1241328177494" ID="ID_540726089" MODIFIED="1287028724140" STYLE="fork" TEXT="Properties">
 <edge STYLE="bezier"/>
 <node COLOR="#111111" CREATED="1241328452660" ID="ID_1036138959" MODIFIED="1241702291357" STYLE="fork" TEXT="D&#x1b0;&#x1edb;i window l&#xe0; frame, frames[ ] l&#xe0; m&#x1ea3;ng c&#xe1;c frame trong window">
 <edge STYLE="bezier"/>
@@ -11109,13 +11120,13 @@ BigDecimal pi = comp.executeTask(task);</pre>
 <edge STYLE="bezier"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1241328677203" FOLDED="true" ID="ID_1244571581" MODIFIED="1259467714762" STYLE="fork" TEXT="String Object">
+<node COLOR="#111111" CREATED="1241328677203" ID="ID_1244571581" MODIFIED="1287030441250" STYLE="fork" TEXT="String Object">
 <edge STYLE="bezier"/>
 <node COLOR="#111111" CREATED="1241328709619" ID="ID_1731424871" MODIFIED="1241702291357" STYLE="fork" TEXT="length property: tr&#x1ea3; v&#x1ec1; s&#x1ed1; character c&#x1ee7;a string">
 <edge STYLE="bezier"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1241344734222" FOLDED="true" ID="ID_736131339" MODIFIED="1259467714762" STYLE="fork" TEXT="Array object">
+<node COLOR="#111111" CREATED="1241344734222" FOLDED="true" ID="ID_736131339" MODIFIED="1287030445453" STYLE="fork" TEXT="Array object">
 <edge STYLE="bezier"/>
 <node COLOR="#111111" CREATED="1241344782611" ID="ID_1440249374" MODIFIED="1242097213066" STYLE="fork" TEXT="C&#xf3; th&#x1ec3; ch&#x1ee9;a m&#x1ecd;i lo&#x1ea1;i d&#x1eef; li&#xea;u kh&#xe1;c nhau trong c&#xf9;ng array">
 <edge STYLE="bezier"/>
@@ -11153,7 +11164,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#cccc00" COLOR="#111111" CREATED="1241340799424" FOLDED="true" HGAP="23" ID="ID_922797992" MODIFIED="1259814210046" STYLE="fork" TEXT="this object" VSHIFT="24">
+<node BACKGROUND_COLOR="#cccc00" COLOR="#111111" CREATED="1241340799424" FOLDED="true" HGAP="23" ID="ID_922797992" MODIFIED="1287030448031" STYLE="fork" TEXT="this object" VSHIFT="24">
 <edge STYLE="bezier"/>
 <icon BUILTIN="idea"/>
 <node COLOR="#111111" CREATED="1241340804861" FOLDED="true" ID="ID_616654293" MODIFIED="1259814210984" STYLE="fork" TEXT="N&#x1ebf;u refer this trong m&#x1ed9;t h&#xe0;m t&#x1ef1; &#x111;&#x1ecb;nh ngh&#x129;a">
@@ -11460,6 +11471,100 @@ BigDecimal pi = comp.executeTask(task);</pre>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
+<node BACKGROUND_COLOR="#ff00ff" COLOR="#990000" CREATED="1287033364859" HGAP="34" ID="ID_1442735306" MODIFIED="1287033457062" TEXT="Tips" VSHIFT="32">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1287033374265" ID="ID_20486573" MODIFIED="1287033391125" TEXT="L&#x1ea5;y value t&#x1eeb; checkbox">
+<node COLOR="#111111" CREATED="1287033391984" ID="ID_1231547827" MODIFIED="1287034232828" TEXT="document.forms[0].filtreKm.checked">
+<icon BUILTIN="info"/>
+</node>
+<node COLOR="#111111" CREATED="1287033409031" ID="ID_400992270" MODIFIED="1287034232828" TEXT="filtreKm = gi&#xe1; tr&#x1ecb; thu&#x1ed9;c t&#xed;nh &quot;properties&quot; c&#x1ee7;a &lt;html:checkbox&gt;">
+<icon BUILTIN="info"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1287034221750" ID="ID_865551201" MODIFIED="1288332271031" TEXT="Set value cho check box">
+<node COLOR="#111111" CREATED="1287034227906" ID="ID_864474757" MODIFIED="1287034232828" TEXT="document.forms[0].filtreDernierKm.checked = true">
+<icon BUILTIN="info"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1287038998343" ID="ID_246416045" MODIFIED="1287039061890" TEXT="Get element fire s&#x1ef1; ki&#x1ec7;n">
+<node COLOR="#111111" CREATED="1287039075718" ID="ID_952426668" MODIFIED="1288332380593">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function executeCheckboxSelectione(event, typeMethode){
+    </p>
+    <p>
+      var event = arguments[0] || window.event;
+    </p>
+    <p>
+      originalElement = event.target || event.srcElement;
+    </p>
+    <p>
+      originalElement.checked=true;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      onclick=&quot;javascript:executeCheckboxSelectione(event, 'rafraichir');&quot;
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1287039148593" ID="ID_683239645" MODIFIED="1287039169390" TEXT="Get message t&#x1eeb; properties hi&#x1ec3;n th&#x1ecb; cho alert">
+<node COLOR="#111111" CREATED="1287039170734" ID="ID_1578275504" MODIFIED="1287039189328" TEXT="alert(&apos;&lt;bean:message key=&quot;U841.U841-003.message.optionAuMoinSelectione&quot; /&gt;&apos;);"/>
+</node>
+<node BACKGROUND_COLOR="#ff9999" COLOR="#111111" CREATED="1288332276062" ID="ID_1738279598" MODIFIED="1288332451531" TEXT="&#x110;&#x1ecb;nh v&#x1ecb; object">
+<node COLOR="#111111" CREATED="1288332432062" ID="ID_181506266" MODIFIED="1288332436734" TEXT="D&#xf9;ng $">
+<node COLOR="#111111" CREATED="1288332290125" ID="ID_707310263" MODIFIED="1288332369312">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var blockPrixUnitaireLabel=$('block-prix-unitaire-label');
+    </p>
+    <p>
+      blockPrixUnitaireLabel.show();
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+</node>
+<node COLOR="#111111" CREATED="1288332347656" ID="ID_888125261" MODIFIED="1288332382609">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;td class=&quot;label&quot; id=&quot;block-prix-unitaire-label&quot; style=&quot;display: none&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;bean:message key=&quot;U1000.U1000-001.prixunitaireht&quot; /&gt;
+    </p>
+    <p>
+      &lt;/td&gt;
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1288332394453" ID="ID_934305798" MODIFIED="1288332423062" TEXT="D&#xf9;ng documents.getElementById(&apos;abc&apos;)">
+<icon BUILTIN="full-1"/>
+</node>
+</node>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1241407292078" FOLDED="true" ID="ID_513486065" MODIFIED="1242811629865" STYLE="fork" TEXT="Java Applet">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -11631,7 +11736,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1210841656278" ID="ID_362798859" MODIFIED="1259744275515" STYLE="fork" TEXT="Struts">
+<node COLOR="#00b439" CREATED="1210841656278" FOLDED="true" ID="ID_362798859" MODIFIED="1282116056265" STYLE="fork" TEXT="Struts">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font ITALIC="true" NAME="Tahoma" SIZE="16"/>
 <node COLOR="#990000" CREATED="1258346441534" FOLDED="true" ID="ID_507539283" MODIFIED="1259467714802" TEXT="Note">
@@ -11819,16 +11924,16 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1242462612188" FOLDED="true" ID="ID_1707433212" MODIFIED="1259724600296" TEXT="Hibernate">
+<node COLOR="#00b439" CREATED="1242462612188" ID="ID_1707433212" MODIFIED="1282116057203" TEXT="Hibernate">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1242462967819" FOLDED="true" ID="ID_811422293" LINK="Hibernate in Action" MODIFIED="1259467714812" TEXT="C&#x1a1; b&#x1ea3;n">
+<node COLOR="#990000" CREATED="1242462967819" ID="ID_811422293" LINK="Hibernate in Action" MODIFIED="1282116061296" TEXT="C&#x1a1; b&#x1ea3;n">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1242462972206" ID="ID_1703077639" MODIFIED="1242462979436" TEXT="Gi&#x1ea3;i ph&#xe1;p ORM"/>
 <node COLOR="#111111" CREATED="1242463000536" ID="ID_1057619457" MODIFIED="1242463026824" TEXT="Bi&#x1ec3;u di&#x1ec5;n th&#xf4;ng tin d&#x1ea1;ng object v&#xe0; cho ph&#xe9;p t&#x1ea1;o m&#x1ed1;i li&#x1ec7;n h&#x1ec7; gi&#x1eef;a c&#xe1;c object"/>
-<node COLOR="#111111" CREATED="1256450676475" FOLDED="true" ID="ID_239285778" MODIFIED="1259467714802" TEXT="Transactions">
+<node COLOR="#111111" CREATED="1256450676475" ID="ID_239285778" MODIFIED="1282116063312" TEXT="Transactions">
 <node COLOR="#111111" CREATED="1256450685889" ID="ID_1628831134" MODIFIED="1256450707400" TEXT="Hibernate s&#x1eed; d&#x1ee5;ng JDBC Connection"/>
-<node COLOR="#111111" CREATED="1256450707870" FOLDED="true" ID="ID_1286348543" MODIFIED="1259467714802" TEXT="N&#xf3; c&#xf3; m&#x1ed9;t abstract layer cho transaction, Transaction interface">
+<node COLOR="#111111" CREATED="1256450707870" ID="ID_1286348543" MODIFIED="1282116064671" TEXT="N&#xf3; c&#xf3; m&#x1ed9;t abstract layer cho transaction, Transaction interface">
 <node COLOR="#111111" CREATED="1256451004166" FOLDED="true" ID="ID_146927778" MODIFIED="1259467714802" TEXT="Server qu&#x1ea3;n l&#xfd;">
 <node COLOR="#111111" CREATED="1256450748819" ID="ID_784479226" MODIFIED="1256450771161" TEXT="B&#xea;n d&#x1b0;&#x1edb;i s&#x1eed; d&#x1ee5;ng JTA, Corbra transaction service"/>
 </node>
@@ -11838,9 +11943,9 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1242464966143" FOLDED="true" ID="ID_1147858489" MODIFIED="1259724600296" TEXT="Vi&#x1ebf;t code">
+<node COLOR="#990000" CREATED="1242464966143" ID="ID_1147858489" MODIFIED="1282116066859" TEXT="Vi&#x1ebf;t code">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1244944328579" FOLDED="true" ID="ID_1718001054" MODIFIED="1259724600296" TEXT="File c&#x1ea5;u h&#xec;nh">
+<node COLOR="#111111" CREATED="1244944328579" ID="ID_1718001054" MODIFIED="1282116072703" TEXT="File c&#x1ea5;u h&#xec;nh">
 <node COLOR="#111111" CREATED="1242466430198" FOLDED="true" ID="ID_1319930029" MODIFIED="1259467714812" TEXT="T&#xea;n file hibernate.cfg.xml or hibernate.properties ">
 <font NAME="SansSerif" SIZE="12"/>
 <node COLOR="#111111" CREATED="1244944392671" ID="ID_1215606914" MODIFIED="1244944415083" TEXT="N&#x1ebf;u 2 file t&#x1ed3;n t&#x1ea1;i th&#xec; xml s&#x1ebd; overide file properties"/>
@@ -11932,8 +12037,8 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1242464971160" FOLDED="true" ID="ID_1620018603" MODIFIED="1259467714852" TEXT="Mapping file ">
-<node COLOR="#111111" CREATED="1242465096761" FOLDED="true" ID="ID_1761460263" MODIFIED="1259467714812">
+<node COLOR="#111111" CREATED="1242464971160" ID="ID_1620018603" MODIFIED="1282116074750" TEXT="Mapping file ">
+<node COLOR="#111111" CREATED="1242465096761" ID="ID_1761460263" MODIFIED="1282116086093">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11965,9 +12070,9 @@ BigDecimal pi = comp.executeTask(task);</pre>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244952464798" FOLDED="true" ID="ID_660279519" MODIFIED="1259467714842" TEXT="Qu&#x1ea3;n l&#xfd; c&#xe1;c m&#x1ed1;i quan h&#x1ec7; d&#x1eef; li&#x1ec7;u">
-<node COLOR="#111111" CREATED="1244946291882" FOLDED="true" ID="ID_1743516325" MODIFIED="1259467714812" TEXT="T&#x1ea1;o m&#x1ed1;i quan h&#x1ec7; m&#x1ed9;t nhi&#x1ec1;u v&#x1edb;i class kh&#xe1;c">
-<node COLOR="#111111" CREATED="1244946342274" FOLDED="true" ID="ID_65418578" MODIFIED="1259467714812">
+<node COLOR="#111111" CREATED="1244952464798" ID="ID_660279519" MODIFIED="1282117189734" TEXT="Qu&#x1ea3;n l&#xfd; c&#xe1;c m&#x1ed1;i quan h&#x1ec7; OOP d&#x1eef; li&#x1ec7;u">
+<node COLOR="#111111" CREATED="1244946291882" ID="ID_1743516325" MODIFIED="1282116145203" TEXT="T&#x1ea1;o m&#x1ed1;i quan h&#x1ec7; m&#x1ed9;t nhi&#x1ec1;u v&#x1edb;i class kh&#xe1;c">
+<node COLOR="#111111" CREATED="1244946342274" ID="ID_65418578" MODIFIED="1282116146375">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -11982,7 +12087,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 <node COLOR="#111111" CREATED="1244946448237" ID="ID_1439833534" MODIFIED="1244946482746" TEXT="M&#x1ed9;t Location c&#xf3; th&#x1ec3; c&#xf3; nhi&#x1ec1;u Event"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244953074965" FOLDED="true" ID="ID_723499582" MODIFIED="1259467714812" TEXT="T&#x1ea1;o m&#x1ed1;i qh&#x1ec7; nhi&#x1ec1;u nhi&#x1ec1;u">
+<node COLOR="#111111" CREATED="1244953074965" ID="ID_723499582" MODIFIED="1282116139125" TEXT="T&#x1ea1;o m&#x1ed1;i qh&#x1ec7; nhi&#x1ec1;u nhi&#x1ec1;u">
 <node COLOR="#111111" CREATED="1244953084779" ID="ID_84793496" MODIFIED="1244953092771">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -11996,7 +12101,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </html></richcontent>
 <icon BUILTIN="info"/>
 </node>
-<node COLOR="#111111" CREATED="1244953712262" FOLDED="true" ID="ID_1018991378" MODIFIED="1259467714812" TEXT="&#x110;&#x1ec3; cho ph&#xe9;p Attendee c&#xf3; th&#x1ec3; &#x111;&#x1ecb;nh v&#x1ecb; Event cho c&#xf4;ng b&#x1eb1;ng">
+<node COLOR="#111111" CREATED="1244953712262" ID="ID_1018991378" MODIFIED="1282116141875" TEXT="&#x110;&#x1ec3; cho ph&#xe9;p Attendee c&#xf3; th&#x1ec3; &#x111;&#x1ecb;nh v&#x1ecb; Event cho c&#xf4;ng b&#x1eb1;ng">
 <node COLOR="#111111" CREATED="1244953733813" ID="ID_251640010" MODIFIED="1244953750296">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12016,13 +12121,13 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </html></richcontent>
 <icon BUILTIN="info"/>
 </node>
-<node COLOR="#111111" CREATED="1244953757357" ID="ID_50594293" MODIFIED="1244953775212" TEXT="&lt;set name=&quot;attendees&quot; inverse=&quot;true&quot;&gt;  trong Event xml">
+<node COLOR="#111111" CREATED="1244953757357" ID="ID_50594293" MODIFIED="1282126639843" TEXT="&lt;set name=&quot;attendees&quot; inverse=&quot;true&quot;&gt;  trong Event xml">
 <icon BUILTIN="info"/>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244950026402" FOLDED="true" ID="ID_1645004077" MODIFIED="1259467714812" TEXT="Khai b&#xe1;o l&#x1edb;p con k&#x1ebf; th&#x1eeb;a">
-<node COLOR="#111111" CREATED="1248944279640" FOLDED="true" ID="ID_454009055" MODIFIED="1259467714812" TEXT="&lt;subclass&gt;">
+<node BACKGROUND_COLOR="#ffcc00" COLOR="#111111" CREATED="1244950026402" HGAP="19" ID="ID_1645004077" LINK="http://docs.jboss.org/hibernate/stable/core/reference/en/html/inheritance.html" MODIFIED="1282126673609" TEXT="Khai b&#xe1;o l&#x1edb;p con k&#x1ebf; th&#x1eeb;a" VSHIFT="37">
+<node COLOR="#111111" CREATED="1248944279640" ID="ID_454009055" MODIFIED="1282116107140" TEXT="&lt;subclass&gt;">
 <node COLOR="#111111" CREATED="1244950036616" ID="ID_1987395182" MODIFIED="1244950085417">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12035,13 +12140,123 @@ BigDecimal pi = comp.executeTask(task);</pre>
   </body>
 </html></richcontent>
 <icon BUILTIN="info"/>
-</node>
 <node COLOR="#111111" CREATED="1248944352125" ID="ID_1363266888" MODIFIED="1248944405875" TEXT="Thu &#x111;&#x1b0;&#x1ee3;c object ConferenceEvent t&#x1eeb; property CONF_EVENT"/>
 </node>
-<node COLOR="#111111" CREATED="1248944289609" ID="ID_1307720889" MODIFIED="1248944319875" TEXT="&lt;joined-subclass&gt;"/>
+<node COLOR="#111111" CREATED="1282116964250" ID="ID_350347241" MODIFIED="1282118492265">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;class name=&quot;bo.ElementSecondaireBO&quot; table=&quot;S_ELEMENT_PRODUIT_SERVICE&quot;
+    </p>
+    <p>
+      proxy=&quot;bo.IElementSecondaireBO&quot;&gt;
+    </p>
+    <p>
+      &lt;discriminator column=&quot;DIC_TYPE_ELT_PRODUIT_SERVICE&quot; type=&quot;java.lang.String&quot; /&gt;
+    </p>
+    <p>
+      &lt;/class&gt;
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+<icon BUILTIN="full-1"/>
+<node COLOR="#111111" CREATED="1282116980171" ID="ID_1568468803" MODIFIED="1282117301703" TEXT="Ch&#x1ec9; &#x111;&#x1ecb;nh r&#xf5; table c&#x1ee7;a class n&#xe0;y S_ELEMENT_PRODUIT_SERVICE, c&#xf3; khi ko ch&#x1ec9; &#x111;&#x1ecb;nh r&#xf5;"/>
 </node>
-<node COLOR="#111111" CREATED="1244946520120" FOLDED="true" ID="ID_455689508" MODIFIED="1259467714812" TEXT="Class ch&#x1ee9;a &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng Set, Map, List">
-<node COLOR="#111111" CREATED="1244946554159" FOLDED="true" ID="ID_953697838" MODIFIED="1259467714812">
+<node COLOR="#111111" CREATED="1282116872437" ID="ID_915523341" MODIFIED="1282118503656">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;subclass name=&quot;bo.ProduitServiceConsSecondaireBO&quot; discriminator-value=&quot;PSCO&quot; proxy=&quot;bo.IProduitServiceConsSecondaireBO&quot;&gt;
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+<icon BUILTIN="full-2"/>
+<node COLOR="#111111" CREATED="1282117009953" ID="ID_688472182" MODIFIED="1282117060343" TEXT="L&#x1edb;p con c&#x1ee7;a ElementSecondaireBO v&#x1edb;i gi&#xe1; tr&#x1ecb; ph&#xe2;n bi&#x1ec7;t n&#xf3; v&#x1edb;i c&#xe1;c l&#x1edb;p con kh&#xe1;c qua gi&#xe1; tr&#x1ecb; = PSCO"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1282116786937" ID="ID_866516186" MODIFIED="1282116791875" TEXT="&lt;join&gt;">
+<node BACKGROUND_COLOR="#ccff66" COLOR="#111111" CREATED="1282126688500" ID="ID_1262459435" MODIFIED="1282126721125" TEXT="D&#xf9;ng k&#x1ebf;t h&#x1ee3;p v&#x1edb;i &lt;subclass&gt;, b&#xea;n trong tag n&#xe0;y"/>
+<node COLOR="#111111" CREATED="1282116792937" ID="ID_982100369" MODIFIED="1282116826453" TEXT="Ch&#x1ec9; th&#xea;m l&#x1edb;p con trong &lt;subclass&gt; s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c l&#x1b0;u th&#xea;m trong m&#x1ed9;t table ri&#xea;ng"/>
+<node COLOR="#111111" CREATED="1282116917968" ID="ID_615246506" MODIFIED="1282118457796">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;<font color="#ff6633">join</font>&#160;table=&quot;<font color="#ff6633">S_PRODUIT_SERVICE_CONSOMME</font>&quot;&gt;
+    </p>
+    <p>
+      &lt;key column=&quot;<font color="#ff6633">PFK_S_ELT_PRODUIT_SERVICE_SEQ</font>&quot; /&gt;
+    </p>
+    <p>
+      &lt;property name=&quot;reeferenceExterne&quot; column=&quot;REFERENCE_EXTERNE&quot; /&gt;
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+<icon BUILTIN="full-3"/>
+<node COLOR="#111111" CREATED="1282117136531" ID="ID_261175802" MODIFIED="1282117152062" TEXT="Ghi th&#xea;m d&#x1b0;&#x1edb;i tab &lt;subclass&gt;"/>
+<node COLOR="#111111" CREATED="1282117067546" ID="ID_971669558" MODIFIED="1282117131656" TEXT="&#x1ede; &#x111;aya ch&#x1ec9; th&#xea;m l&#xe0; ProduitServiceConsSecondaireBO d&#xf9;ng b&#x1ea3;ng S_PRODUIT_SERVICE_CONSOMME &#x111;&#x1ec3; l&#x1b0;u th&#xea;m m&#x1ed9;t s&#x1ed1; ttin &#x111;&#x1eb7;c bi&#x1ec7;t cho subclass "/>
+<node COLOR="#111111" CREATED="1282117333671" ID="ID_1207497700" MODIFIED="1282117349062" TEXT="D&#xf9;ng kh&#xe1;i ni&#x1ec7;m key PFK_xxx_SEQ"/>
+</node>
+<node COLOR="#111111" CREATED="1282120530500" ID="ID_279778413" MODIFIED="1282120578718" TEXT="N&#x1ebf;u table &#x111;&#x1b0;&#x1ee3;c &#x111;ngh&#x129;a nhi&#x1ec1;u l&#x1ea7;n b&#x1edf;i nhi&#x1ec1;u class con, l&#x1ea5;y t&#x1ed5;ng s&#x1ed1; c&#xe1;c c&#x1ed9;t g&#x1ed9;p l&#x1ea1;i">
+<icon BUILTIN="idea"/>
+</node>
+<node COLOR="#111111" CREATED="1282120613781" ID="ID_603168923" MODIFIED="1282120640843" TEXT="Nh&#x1b0;ng BO ch&#x1ec9; c&#xe0;i &#x111;&#x1eb7;t thu&#x1ed9;c t&#xed;nh theo mapping, ko theo s&#x1ed1; c&#x1ed9;t tr&#xea;n table">
+<node COLOR="#111111" CREATED="1282120695281" ID="ID_1372829764" MODIFIED="1282121780625" TEXT="H&#xe0;m get cho discriminer lu&#xf4;n tr&#x1ea3; v&#x1ec1; h&#x1eb1;ng s&#x1ed1; &#x111;&#xe3; ch&#x1ec9; tr&#xea;n mapping, ko implement tr&#xea;n class cha"/>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1248944289609" ID="ID_1307720889" MODIFIED="1282120645468" TEXT="&lt;joined-subclass&gt;" VSHIFT="14">
+<node COLOR="#111111" CREATED="1282118328796" ID="ID_1446862199" MODIFIED="1282118342484" TEXT="C&#xf3; th&#x1ec3; &#x111;&#x1ecb;nh ngh&#x129;a trong xml ri&#xea;ng"/>
+<node COLOR="#111111" CREATED="1282118239734" ID="ID_310067093" MODIFIED="1282118294640" TEXT="S&#x1eed; d&#x1ee5;ng &#xfd; ngh&#x129;a c&#x1ee7;a &lt;subclass&gt; v&#xe0; &lt;join&gt; lu&#xf4;n, v&#x1eeb;a &#x111;&#x1ecb;nh ngh&#x129;a m&#x1ed9;t class con v&#x1eeb;a ch&#x1ec9; ra m&#x1ed9;t table c&#x1ee5; th&#x1ec3;"/>
+<node COLOR="#111111" CREATED="1282118297062" ID="ID_1649672451" MODIFIED="1282118517390">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;<font color="#ff6633">joined-subclass</font>&#160;&#160;name=&quot;bo.PersoTISPLDetenuBO&quot; table=&quot;<font color="#ff6633">TISPL_DETENU</font>&quot;
+    </p>
+    <p>
+      extends=&quot;bo.ProduitCommercialiseDetenuBO&quot;&gt;
+    </p>
+    <p>
+      &lt;key column=&quot;PFK_C_PCOM_DETENU_SEQ&quot;/&gt;
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+</node>
+<node COLOR="#111111" CREATED="1282118384468" ID="ID_1647909468" MODIFIED="1282118555125">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;class name=&quot;cbo.ProduitCommercialiseDetenuBO&quot; table=&quot;C_PCOM_DETENU&quot;&gt;
+    </p>
+    <p>
+      &lt;id name=&quot;id&quot; column=&quot;PK_SEQ&quot; type=&quot;java.lang.Long&quot;/&gt;
+    </p>
+  </body>
+</html></richcontent>
+<icon BUILTIN="info"/>
+</node>
+</node>
+</node>
+<node COLOR="#111111" CREATED="1244946520120" ID="ID_455689508" MODIFIED="1282118382078" TEXT="Class ch&#x1ee9;a &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng Set, Map, List" VSHIFT="50">
+<node COLOR="#111111" CREATED="1244946554159" ID="ID_953697838" MODIFIED="1282116153578">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12058,12 +12273,12 @@ BigDecimal pi = comp.executeTask(task);</pre>
 <node COLOR="#111111" CREATED="1244947209061" ID="ID_1918086014" MODIFIED="1244947236190" TEXT="Khi Event x&#xf3;a s&#x1ebd; th&#x1ef1;c hi&#x1ec7;n cascade delete th&#xe0;nh ph&#x1ea7;n speakers"/>
 </node>
 <node COLOR="#111111" CREATED="1244953394395" ID="ID_1981342832" MODIFIED="1244953429475" TEXT="C&#xf3; th&#x1ec3; set c&#xf3; load c&#xe1;c collection khi load &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng ch&#x1ee9;a th&#xf4;ng qua tt&#xed;nh lazy"/>
-<node COLOR="#111111" CREATED="1244953432940" FOLDED="true" ID="ID_1817704728" MODIFIED="1259467714812" TEXT="M&#x1eb7;c &#x111;&#x1ecb;nh lazy l&#xe0; true trong Hibernate 3, k&#xf4; load collection">
+<node COLOR="#111111" CREATED="1244953432940" ID="ID_1817704728" MODIFIED="1282116100500" TEXT="M&#x1eb7;c &#x111;&#x1ecb;nh lazy l&#xe0; true trong Hibernate 3, k&#xf4; load collection">
 <node COLOR="#111111" CREATED="1244953530891" ID="ID_1673376385" MODIFIED="1244953535518" TEXT="&lt;set name=&quot;attendees&quot; lazy=&quot;false&quot;&gt;">
 <icon BUILTIN="info"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244953460359" FOLDED="true" ID="ID_1965859657" MODIFIED="1259467714812" TEXT="&#x110;&#x1ec3; l&#x1ea5;y &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng colllection">
+<node COLOR="#111111" CREATED="1244953460359" ID="ID_1965859657" MODIFIED="1282116102187" TEXT="&#x110;&#x1ec3; l&#x1ea5;y &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng colllection">
 <node COLOR="#111111" CREATED="1244953491184" ID="ID_1546645267" MODIFIED="1244953495921">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12078,15 +12293,15 @@ BigDecimal pi = comp.executeTask(task);</pre>
 <icon BUILTIN="info"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244953593471" FOLDED="true" ID="ID_674600668" MODIFIED="1259467714812" TEXT="S&#x1eaf;p x&#x1ebf;p &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng colllection tr&#x1ea3; v&#x1ec1; c&#xf9;ng lo&#x1ea1;i">
+<node COLOR="#111111" CREATED="1244953593471" ID="ID_674600668" MODIFIED="1282116103937" TEXT="S&#x1eaf;p x&#x1ebf;p &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng colllection tr&#x1ea3; v&#x1ec1; c&#xf9;ng lo&#x1ea1;i">
 <node COLOR="#111111" CREATED="1244953614741" ID="ID_554615627" MODIFIED="1244953629913" TEXT="&lt;set name=&quot;attendees&quot; lazy=&quot;false&quot; order-by=&quot;last_name&quot;&gt;">
 <icon BUILTIN="info"/>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244952481702" FOLDED="true" ID="ID_155610096" MODIFIED="1259467714842" TEXT="T&#x1ea1;o m&#x1ed1;i quan h&#x1ec7; component">
+<node COLOR="#111111" CREATED="1244952481702" ID="ID_155610096" MODIFIED="1282116090312" TEXT="T&#x1ea1;o m&#x1ed1;i quan h&#x1ec7; component">
 <node COLOR="#111111" CREATED="1244952496714" ID="ID_1970456121" MODIFIED="1244952546085" TEXT="M&#x1ed9;t object ch&#x1ee9;a m&#x1ed9;t object con, m&#xe0; object con ch&#x1ec9; t&#x1ed3;n t&#x1ea1;i khi c&#xf3; object cha m&#xe0; th&#xf4;i, khi cha m&#x1ea5;t th&#xec; con m&#x1ea5;t"/>
-<node COLOR="#111111" CREATED="1244952558072" FOLDED="true" ID="ID_1499048762" MODIFIED="1259467714842" TEXT="V&#xed; d&#x1ee5; Location c&#xf3; Address ql&#xfd; ttin &#x111;&#x1ecb;a ch&#x1ec9; v&#x1ead;t l&#xfd;">
+<node COLOR="#111111" CREATED="1244952558072" ID="ID_1499048762" MODIFIED="1282116092125" TEXT="V&#xed; d&#x1ee5; Location c&#xf3; Address ql&#xfd; ttin &#x111;&#x1ecb;a ch&#x1ec9; v&#x1ead;t l&#xfd;">
 <node COLOR="#111111" CREATED="1244952593633" ID="ID_202379845" MODIFIED="1244952625058">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12129,10 +12344,10 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244947242569" FOLDED="true" ID="ID_1755644969" MODIFIED="1259467714852" TEXT="Cascade">
+<node COLOR="#111111" CREATED="1244947242569" ID="ID_1755644969" MODIFIED="1282116077656" TEXT="Cascade">
 <node COLOR="#111111" CREATED="1244947247776" ID="ID_136720181" MODIFIED="1244947290958" TEXT="Th&#xea;m v&#xe0;o many-to-one ho&#x1eb7;c element collection Set, Map, List"/>
 <node COLOR="#111111" CREATED="1244947251482" ID="ID_373761643" MODIFIED="1244947296847" TEXT="Gi&#xe1; tr&#x1ecb; all, save-update, delete, delete-orphan"/>
-<node COLOR="#111111" CREATED="1244952173038" FOLDED="true" ID="ID_456852257" MODIFIED="1259467714852" TEXT="Khi save(event) s&#x1ebd; th&#x1ef1;c hi&#x1ec7;n save(location) t&#x1b0;&#x1a1;ng &#x1ee9;ng">
+<node COLOR="#111111" CREATED="1244952173038" ID="ID_456852257" MODIFIED="1282116081000" TEXT="Khi save(event) s&#x1ebd; th&#x1ef1;c hi&#x1ec7;n save(location) t&#x1b0;&#x1a1;ng &#x1ee9;ng">
 <node COLOR="#111111" CREATED="1244952122606" ID="ID_1730135181" MODIFIED="1244952199496" TEXT="&lt;many-to-one name=&quot;location&quot; column=&quot;location_id&quot; class=&quot;Location&quot; cascade=&quot;save-update&quot; /&gt; ">
 <icon BUILTIN="info"/>
 </node>
@@ -12188,7 +12403,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1242464987173" ID="ID_1847385893" MODIFIED="1242466857803" TEXT="&#x110;&#x1eb7;t hipernate.jar v&#xe0;o lib folder, xml code v&#xe0;o src nh&#x1b0; b&#xec;nh th&#x1b0;&#x1edd;ng"/>
-<node COLOR="#111111" CREATED="1242530419021" FOLDED="true" ID="ID_968647721" MODIFIED="1259467714852" TEXT="T&#x1ea1;o quan h&#x1ec7; gi&#x1eef;a c&#xe1;c table">
+<node COLOR="#111111" CREATED="1242530419021" ID="ID_968647721" MODIFIED="1282126752187" TEXT="T&#x1ea1;o quan h&#x1ec7; gi&#x1eef;a c&#xe1;c table">
 <node COLOR="#111111" CREATED="1242530667078" FOLDED="true" ID="ID_43345433" MODIFIED="1259467714852" TEXT="Khai b&#xe1;o">
 <node COLOR="#111111" CREATED="1242530485497" FOLDED="true" HGAP="26" ID="ID_377848039" MODIFIED="1259467714852" VSHIFT="-20">
 <richcontent TYPE="NODE"><html>
@@ -12244,7 +12459,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244948464666" FOLDED="true" HGAP="58" ID="ID_231809271" MODIFIED="1259467714862" TEXT="L&#x1b0;u xu&#x1ed1;ng db" VSHIFT="27">
+<node COLOR="#111111" CREATED="1244948464666" FOLDED="true" HGAP="58" ID="ID_231809271" MODIFIED="1282116071218" TEXT="L&#x1b0;u xu&#x1ed1;ng db" VSHIFT="27">
 <node COLOR="#111111" CREATED="1244948471366" ID="ID_1358850419" MODIFIED="1244948725651">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12416,7 +12631,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#111111" CREATED="1244950429311" ID="ID_40695162" MODIFIED="1244950446496" TEXT="Mu&#x1ed1;n h&#x1ee7;y h&#x1ebf;t &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng l&#x1b0;u trong cache d&#xf9;g clear()"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1242488610599" FOLDED="true" HGAP="22" ID="ID_400919837" MODIFIED="1256450611973" TEXT="HQL" VSHIFT="25">
+<node COLOR="#990000" CREATED="1242488610599" FOLDED="true" HGAP="22" ID="ID_400919837" MODIFIED="1282116060234" TEXT="HQL" VSHIFT="25">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244953999505" ID="ID_1041301314" MODIFIED="1244954000446" TEXT="SQL &#x111;&#x1b0;&#x1ee3;c thi&#x1ebf;t k&#x1ebf; &#x111;&#x1ec3; l&#xe0;m vi&#x1ec7;c v&#x1edb;i CSDL quan h&#x1ec7;, trong khi &#x111;&#xf3; HQL &#x111;&#x1b0;&#x1ee3;c d&#xf9;ng &#x111;&#x1ec3; truy v&#x1ea5;n c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng."/>
 <node COLOR="#111111" CREATED="1242488591372" FOLDED="true" ID="ID_344328583" LINK="#ID_143593922" MODIFIED="1259467714882" TEXT="Thi h&#xe0;nh HQL t&#x1eeb; Session">
