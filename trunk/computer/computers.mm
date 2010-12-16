@@ -12354,7 +12354,7 @@ BigDecimal pi = comp.executeTask(task);</pre>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1244947594014" ID="ID_545566170" MODIFIED="1291866826562" TEXT="Load Mapping file">
-<node COLOR="#111111" CREATED="1244947606392" FOLDED="true" ID="ID_1269017176" MODIFIED="1291866834390" TEXT="T&#x1ef1; &#x111;&#x1ed9;ng load hibernate.cfg.xml khi t&#x1ea1;o &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng config">
+<node COLOR="#111111" CREATED="1244947606392" ID="ID_1269017176" MODIFIED="1292481570937" TEXT="T&#x1ef1; &#x111;&#x1ed9;ng load hibernate.cfg.xml khi t&#x1ea1;o &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng config">
 <node COLOR="#111111" CREATED="1244947634903" ID="ID_864595842" MODIFIED="1244947866306">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12448,7 +12448,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#111111" CREATED="1242466819338" ID="ID_507503955" MODIFIED="1291867223531" TEXT="T&#x1ea1;o &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng SessionFactory ">
 <node COLOR="#111111" CREATED="1242466873445" ID="ID_1051439192" MODIFIED="1242466888337" TEXT="T&#x1ea1;o trong l&#x1edb;p helper  v&#xed; d&#x1ee5; HibernateUtil "/>
 <node COLOR="#111111" CREATED="1242466889999" ID="ID_830022600" LINK="http://docs.jboss.org/hibernate/stable/core/reference/en/html/tutorial-firstapp.html" MODIFIED="1242466941623" TEXT="&#x110;&#x1ed1;i t&#x1b0;&#x1ee3;ng s&#x1ebd; t&#x1ea1;o trong ph&#x1ea7;n code static &#x111;&#x1ec3; kh&#x1edf;i t&#x1ea1;o 1 l&#x1ea7;n"/>
-<node COLOR="#111111" CREATED="1242488501312" FOLDED="true" ID="ID_143593922" MODIFIED="1291867299359" TEXT="&#x110;&#x1ed1;i t&#x1b0;&#x1ee3;ng Session">
+<node COLOR="#111111" CREATED="1242488501312" FOLDED="true" ID="ID_143593922" MODIFIED="1292482757296" TEXT="&#x110;&#x1ed1;i t&#x1b0;&#x1ee3;ng Session">
 <node COLOR="#111111" CREATED="1242488529252" ID="ID_298464372" MODIFIED="1242488561589" TEXT="L&#x1ea5;y t&#x1eeb; SessionFactory.getCurrentSession()"/>
 <node COLOR="#111111" CREATED="1242531181037" ID="ID_1652496989" MODIFIED="1242531192624" TEXT="S&#x1eed; d&#x1ee5;ng 1 session cho to&#xe0;n b&#x1ed9; 1 servlet"/>
 <node COLOR="#111111" CREATED="1242531415815" ID="ID_240532248" MODIFIED="1291867239421" TEXT="G&#x1ed3;m l&#x1ec7;nh">
@@ -12488,7 +12488,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
   </body>
 </html></richcontent>
 </node>
-<node COLOR="#111111" CREATED="1244948516210" FOLDED="true" ID="ID_628579179" MODIFIED="1291867342250">
+<node COLOR="#111111" CREATED="1244948516210" FOLDED="true" ID="ID_628579179" MODIFIED="1292482771859">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12538,8 +12538,8 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#111111" CREATED="1257586941253" ID="ID_562826832" MODIFIED="1257586980309" TEXT="V&#x1eab;n c&#xf3; th&#x1ec3; d&#xf9;ng object ref &#x111;ang t&#x1ed3;n t&#x1ea1;i &#x111;c -&gt; bi&#x1ebf;n persistent instance th&#xe0;nh transient."/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244949700613" FOLDED="true" HGAP="34" ID="ID_1494516415" MODIFIED="1259467714862" TEXT="M&#x1ed9;t s&#x1ed1; thao t&#xe1;c db" VSHIFT="29">
-<node COLOR="#111111" CREATED="1244949724257" FOLDED="true" ID="ID_1355390323" MODIFIED="1259467714862">
+<node COLOR="#111111" CREATED="1244949700613" HGAP="34" ID="ID_1494516415" MODIFIED="1292482837843" TEXT="M&#x1ed9;t s&#x1ed1; thao t&#xe1;c db" VSHIFT="29">
+<node COLOR="#111111" CREATED="1244949724257" FOLDED="true" ID="ID_1355390323" MODIFIED="1292482843562">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12560,7 +12560,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <icon BUILTIN="info"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244949741282" FOLDED="true" ID="ID_789183713" MODIFIED="1259467714862">
+<node COLOR="#111111" CREATED="1244949741282" FOLDED="true" ID="ID_789183713" MODIFIED="1292482850109">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -12583,7 +12583,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <icon BUILTIN="info"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1244949784564" FOLDED="true" ID="ID_103671247" MODIFIED="1259467714862" TEXT="S&#x1eed; d&#x1ee5;ng PreparedStatement cho c&#xe2;u truy v&#x1ea5;n">
+<node COLOR="#111111" CREATED="1244949784564" FOLDED="true" ID="ID_103671247" MODIFIED="1292482859812" TEXT="S&#x1eed; d&#x1ee5;ng PreparedStatement cho c&#xe2;u truy v&#x1ea5;n">
 <node COLOR="#111111" CREATED="1244949786497" ID="ID_1529230172" MODIFIED="1244949815478">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -12634,7 +12634,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#990000" CREATED="1242488610599" HGAP="22" ID="ID_400919837" MODIFIED="1291867883656" TEXT="HQL" VSHIFT="25">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1244953999505" ID="ID_1041301314" MODIFIED="1244954000446" TEXT="SQL &#x111;&#x1b0;&#x1ee3;c thi&#x1ebf;t k&#x1ebf; &#x111;&#x1ec3; l&#xe0;m vi&#x1ec7;c v&#x1edb;i CSDL quan h&#x1ec7;, trong khi &#x111;&#xf3; HQL &#x111;&#x1b0;&#x1ee3;c d&#xf9;ng &#x111;&#x1ec3; truy v&#x1ea5;n c&#xe1;c &#x111;&#x1ed1;i t&#x1b0;&#x1ee3;ng."/>
-<node COLOR="#111111" CREATED="1242488591372" FOLDED="true" ID="ID_344328583" LINK="#ID_143593922" MODIFIED="1291868424437" TEXT="Thi h&#xe0;nh HQL t&#x1eeb; Session">
+<node COLOR="#111111" CREATED="1242488591372" ID="ID_344328583" LINK="#ID_143593922" MODIFIED="1292482893890" TEXT="Thi h&#xe0;nh HQL t&#x1eeb; Session">
 <node COLOR="#111111" CREATED="1242488640733" ID="ID_220446118" MODIFIED="1242488657597" TEXT="Load t&#x1ea5;t c&#x1ea3; c&#xe1;c row trong table Event c&#x1ee7;a DB"/>
 <node COLOR="#111111" CREATED="1244954050238" ID="ID_1191246731" MODIFIED="1244954066101" TEXT="Tr&#x1ea3; t&#x1ea5;t c&#x1ea3; c&#xe1;c event List results = session.find(&quot;from Event&quot;);"/>
 <node COLOR="#111111" CREATED="1244954172774" ID="ID_105098777" MODIFIED="1291867904953" TEXT="&#x110;&#x1ed1;i t&#x1b0;&#x1ee3;ng Query">
@@ -12685,7 +12685,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </html></richcontent>
 <icon BUILTIN="info"/>
 </node>
-<node COLOR="#111111" CREATED="1244954640817" FOLDED="true" ID="ID_283240874" MODIFIED="1291868114812" TEXT="S&#x1eed; d&#x1ee5;ng mapping file">
+<node COLOR="#111111" CREATED="1244954640817" FOLDED="true" ID="ID_283240874" MODIFIED="1292482913000" TEXT="S&#x1eed; d&#x1ee5;ng mapping file">
 <node COLOR="#111111" CREATED="1244954648037" ID="ID_400984443" MODIFIED="1244954673484">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -14380,19 +14380,19 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1244860979059" FOLDED="true" HGAP="34" ID="ID_834499536" MODIFIED="1259467715042" TEXT="Database" VSHIFT="32">
+<node COLOR="#990000" CREATED="1244860979059" HGAP="34" ID="ID_834499536" MODIFIED="1292482949515" TEXT="Database" VSHIFT="32">
 <font NAME="SansSerif" SIZE="14"/>
-<node COLOR="#111111" CREATED="1244860982504" FOLDED="true" ID="ID_1140919609" MODIFIED="1259467715012" TEXT="DAOSupport class">
+<node COLOR="#111111" CREATED="1244860982504" ID="ID_1140919609" MODIFIED="1292482951546" TEXT="DAOSupport class">
 <node COLOR="#111111" CREATED="1244861051123" ID="ID_1318130781" MODIFIED="1244861082498" TEXT="&#x110;&#x1ed1;i t&#x1b0;&#x1ee3;ng h&#x1ed7; tr&#x1ee3; c&#xe1;c v&#x1ea5;n &#x111;&#x1ec1; k&#x1ebf;t n&#x1ed1;i database b&#xea;n d&#x1b0;&#x1edb;i"/>
 <node COLOR="#111111" CREATED="1244861083149" ID="ID_1798995913" MODIFIED="1244861190493" TEXT="C&#xf3; th&#x1ec3; c&#x1ea7;n set s&#x1eed; d&#x1ee5;ng DataSource(k&#xf4; h&#x1ed7; tr&#x1ee3; DriverManager) &#x111;&#x1ec3; connect DB"/>
-<node COLOR="#111111" CREATED="1244861199606" FOLDED="true" ID="ID_491344263" MODIFIED="1259467715012" TEXT="L&#x1edb;p con">
+<node COLOR="#111111" CREATED="1244861199606" ID="ID_491344263" MODIFIED="1292482953609" TEXT="L&#x1edb;p con">
 <node COLOR="#111111" CREATED="1244861203962" ID="ID_1712634556" MODIFIED="1244861213376" TEXT="JDBCDaoSupport"/>
 <node COLOR="#111111" CREATED="1244861203962" ID="ID_1802011966" MODIFIED="1244861237180" TEXT="JdoDaoSupport"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1247154783902" FOLDED="true" ID="ID_264426826" MODIFIED="1259467715012" TEXT="Set DataSource">
+<node COLOR="#111111" CREATED="1247154783902" ID="ID_264426826" MODIFIED="1292482961468" TEXT="Set DataSource">
 <node COLOR="#111111" CREATED="1247154800185" ID="ID_577763325" MODIFIED="1247154801817" TEXT="JNDI"/>
-<node COLOR="#111111" CREATED="1247154802418" FOLDED="true" ID="ID_134928032" MODIFIED="1259467715012" TEXT="JDBC Driver">
+<node COLOR="#111111" CREATED="1247154802418" ID="ID_134928032" MODIFIED="1292482963015" TEXT="JDBC Driver">
 <node COLOR="#111111" CREATED="1247155446154" FOLDED="true" ID="ID_962268938" MODIFIED="1259467715012" TEXT="DriverManagerDataSource">
 <node COLOR="#111111" CREATED="1247155448768" ID="ID_258671431" MODIFIED="1247155462267" TEXT="Tr&#x1ea3; v&#x1ec1; m&#x1ed7;i l&#x1ea7;n m&#x1ed9;t connection m&#x1edb;i"/>
 <node COLOR="#111111" CREATED="1247155545947" ID="ID_1469948899" MODIFIED="1247155570192">
@@ -14430,7 +14430,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 <node COLOR="#111111" CREATED="1247154818852" ID="ID_1716055514" MODIFIED="1247154821716" TEXT="Pool connections"/>
 </node>
-<node COLOR="#111111" CREATED="1247284911845" FOLDED="true" ID="ID_1882715604" MODIFIED="1259467715042" TEXT="Spring v&#x1edb;i Hibernate">
+<node COLOR="#111111" CREATED="1247284911845" ID="ID_1882715604" MODIFIED="1292482965750" TEXT="Spring v&#x1edb;i Hibernate">
 <node COLOR="#111111" CREATED="1247156146481" FOLDED="true" HGAP="64" ID="ID_1088182118" MODIFIED="1259467715012" TEXT="&#x110;&#x1ecb;nh ngh&#x129;a Template" VSHIFT="12">
 <node COLOR="#111111" CREATED="1247156152450" ID="ID_1396572295" MODIFIED="1247156196373" TEXT="Cho ph&#xe9;p xem qu&#xe1; tr&#xec;nh li&#xea;n wan &#x111;&#x1ebf;n DB l&#xe0; qtr&#xec;nh chu&#x1ea9;n"/>
 <node COLOR="#111111" CREATED="1247156174712" FOLDED="true" ID="ID_257278083" MODIFIED="1259467715012" TEXT="Ch&#x1ec9; c&#xf3; m&#x1ed9;t s&#x1ed1; b&#x1b0;&#x1edb;c trong qtr&#xec;nh l&#xe0; c&#xf3; th&#x1ec3; th&#xe2;y &#x111;&#x1ed5;i t&#xf9;y thu&#x1ed9;c ho&#xe0;n c&#x1ea3;nh">
@@ -14680,9 +14680,9 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ccffcc" COLOR="#111111" CREATED="1253603242421" FOLDED="true" HGAP="43" ID="ID_1997544485" MODIFIED="1259467715032" TEXT="S&#x1eed; d&#x1ee5;ng HQL" VSHIFT="1">
+<node BACKGROUND_COLOR="#ccffcc" COLOR="#111111" CREATED="1253603242421" HGAP="43" ID="ID_1997544485" MODIFIED="1292482970140" TEXT="S&#x1eed; d&#x1ee5;ng HQL" VSHIFT="1">
 <node BACKGROUND_COLOR="#99ffcc" COLOR="#111111" CREATED="1253602754515" HGAP="33" ID="ID_1018561539" MODIFIED="1253604181625" TEXT="T&#x1eeb; trong class extend HibernateDaoSupport" VSHIFT="28"/>
-<node COLOR="#111111" CREATED="1253602237328" FOLDED="true" HGAP="26" ID="ID_1138622233" MODIFIED="1259467715032" VSHIFT="-18">
+<node COLOR="#111111" CREATED="1253602237328" HGAP="26" ID="ID_1138622233" MODIFIED="1292482974812" VSHIFT="-18">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14853,7 +14853,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1253603293296" FOLDED="true" ID="ID_1416241167" MODIFIED="1259467715032">
+<node COLOR="#111111" CREATED="1253603293296" ID="ID_1416241167" MODIFIED="1292482977296">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -14912,7 +14912,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1247451239578" FOLDED="true" ID="ID_169029370" MODIFIED="1259467715092" TEXT="Spring Web">
+<node COLOR="#990000" CREATED="1247451239578" ID="ID_169029370" MODIFIED="1292482984625" TEXT="Spring Web">
 <font NAME="SansSerif" SIZE="14"/>
 <node COLOR="#111111" CREATED="1247451328171" FOLDED="true" ID="ID_1312157942" MODIFIED="1247988286708" TEXT="Model">
 <node COLOR="#111111" CREATED="1247452077156" FOLDED="true" ID="ID_298346092" MODIFIED="1259467715052">
@@ -15310,8 +15310,8 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1247457726406" FOLDED="true" ID="ID_1043952135" MODIFIED="1259467715072" TEXT="T&#xed;ch h&#x1ee3;p Struts">
-<node COLOR="#111111" CREATED="1247457874890" FOLDED="true" ID="ID_1437943016" MODIFIED="1259467715062" TEXT="C&#x1ea7;n &#x111;&#x103;ng k&#xfd;  Spring trong strut-config.xml">
+<node COLOR="#111111" CREATED="1247457726406" ID="ID_1043952135" MODIFIED="1292482987296" TEXT="T&#xed;ch h&#x1ee3;p Struts">
+<node COLOR="#111111" CREATED="1247457874890" ID="ID_1437943016" MODIFIED="1292482988750" TEXT="C&#x1ea7;n &#x111;&#x103;ng k&#xfd;  Spring trong strut-config.xml">
 <node COLOR="#111111" CREATED="1247457959156" ID="ID_560212826" MODIFIED="1247457969109" TEXT="ContextLoaderPlugIn s&#x1ebd; load Spring application context"/>
 <node COLOR="#111111" CREATED="1247457889703" ID="ID_114285524" MODIFIED="1247457910890">
 <richcontent TYPE="NODE"><html>
@@ -15339,9 +15339,9 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <icon BUILTIN="info"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1247457759000" FOLDED="true" ID="ID_1475083449" MODIFIED="1259467715072" TEXT="Cung c&#x1ea5;p 2 gi&#x1ea3;i ph&#xe1;p">
-<node COLOR="#111111" CREATED="1247457764968" FOLDED="true" ID="ID_381189654" MODIFIED="1259467715062" TEXT="Vi&#x1ebf;t Struts action extend Spring base class">
-<node COLOR="#111111" CREATED="1247458144250" FOLDED="true" ID="ID_574906061" MODIFIED="1259467715062" TEXT="S&#x1eed; d&#x1ee5;ng WebApplicationContextUtils &#x111;&#x1ec3; l&#x1ea5;y Spring context">
+<node COLOR="#111111" CREATED="1247457759000" ID="ID_1475083449" MODIFIED="1292483137125" TEXT="Cung c&#x1ea5;p 2 gi&#x1ea3;i ph&#xe1;p">
+<node COLOR="#111111" CREATED="1247457764968" ID="ID_381189654" MODIFIED="1292483139828" TEXT="Vi&#x1ebf;t Struts action extend Spring base class">
+<node COLOR="#111111" CREATED="1247458144250" ID="ID_574906061" MODIFIED="1292483153359" TEXT="S&#x1eed; d&#x1ee5;ng WebApplicationContextUtils &#x111;&#x1ec3; l&#x1ea5;y Spring context">
 <node COLOR="#111111" CREATED="1247458081250" ID="ID_1186424709" MODIFIED="1247458119781">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -15386,7 +15386,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <icon BUILTIN="idea"/>
 <icon BUILTIN="idea"/>
 </node>
-<node COLOR="#111111" CREATED="1247458273500" FOLDED="true" ID="ID_735878190" MODIFIED="1259467715062" TEXT="&#x110;&#xe3; c&#xf3; m&#x1ed9;t base Action class ActionSupport cung c&#x1ea5;p s&#x1eb5;n Spring application context">
+<node COLOR="#111111" CREATED="1247458273500" ID="ID_735878190" MODIFIED="1292483184500" TEXT="&#x110;&#xe3; c&#xf3; m&#x1ed9;t base Action class ActionSupport cung c&#x1ea5;p s&#x1eb5;n Spring application context">
 <node COLOR="#111111" CREATED="1247458340921" ID="ID_664715790" MODIFIED="1247458387078" TEXT="Action class ch&#x1ec9; c&#x1ea7;n g&#x1ecd;i getBean()"/>
 <node COLOR="#111111" CREATED="1247458377546" ID="ID_222718870" MODIFIED="1247458389515">
 <richcontent TYPE="NODE"><html>
@@ -15402,13 +15402,13 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <icon BUILTIN="info"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1247458493453" FOLDED="true" ID="ID_1860072374" MODIFIED="1259467715062" TEXT="&#x1af;u khuy&#x1ebf;t">
+<node COLOR="#111111" CREATED="1247458493453" ID="ID_1860072374" MODIFIED="1292483266859" TEXT="&#x1af;u khuy&#x1ebf;t">
 <node COLOR="#111111" CREATED="1247458503562" ID="ID_1734018294" MODIFIED="1247458541578" TEXT="&#x1af;u l&#xe0; d&#x1ec5; c&#xe0;i &#x111;&#x1eb7;t, ch&#x1ec9; c&#x1ea7;n extend ActionSupport"/>
 <node COLOR="#111111" CREATED="1247458512875" ID="ID_6946697" MODIFIED="1247458598703" TEXT="Code c&#xf3; ph&#x1ee5; thu&#x1ed9;c v&#xe0;o Spring, k&#xf4; &#x111;&#x1ea3;m b&#x1ea3;o DI v&#xec; l&#x1ea1;i lookup (getBean()) m&#x1ed9;t bean kh&#xe1;c"/>
 </node>
 </node>
-<node COLOR="#111111" CREATED="1247457783046" FOLDED="true" ID="ID_1719960749" MODIFIED="1259467715072" TEXT="Chuy&#x1ec3;n request to Struts action c&#x1ea5;u h&#xec;nh trong Sprinng config">
-<node COLOR="#111111" CREATED="1247458694171" FOLDED="true" ID="ID_638522740" MODIFIED="1259467715062" TEXT="strut-config.xml">
+<node COLOR="#111111" CREATED="1247457783046" HGAP="23" ID="ID_1719960749" MODIFIED="1292484661890" TEXT="Chuy&#x1ec3;n request to Struts action c&#x1ea5;u h&#xec;nh trong Sprinng config" VSHIFT="29">
+<node COLOR="#111111" CREATED="1247458694171" ID="ID_638522740" MODIFIED="1292483515437" TEXT="strut-config.xml">
 <node COLOR="#111111" CREATED="1247458704031" ID="ID_464593815" MODIFIED="1247458778781" TEXT="Th&#xf4;ng b&#xe1;o v&#x1edb;i Struts s&#x1ebd; x&#xe0;i DelegatingRequestProcessor thay cho RequestProcessor"/>
 <node COLOR="#111111" CREATED="1247458698218" ID="ID_1502588731" MODIFIED="1247458702687" TEXT="&lt;controller processorClass= &quot;org.springframework.web.struts.DelegatingRequestProcessor&quot;/&gt;">
 <icon BUILTIN="info"/>
@@ -15416,7 +15416,7 @@ aPerson.getEvents().add(anEvent);</font></pre>
 <node COLOR="#111111" CREATED="1247458793578" ID="ID_285567061" MODIFIED="1247458801187" TEXT="N&#x1ebf;u s&#x1eed; d&#x1ee5;ng Tile th&#xec; DelegatingTilesRequestProcessor"/>
 </node>
 <node COLOR="#111111" CREATED="1247458831312" ID="ID_557337011" MODIFIED="1247458861421" TEXT="Strut s&#x1ebd; t&#x1ef1; &#x111;&#x1ed9;ng g&#x1eed;i request &#x111;&#x1ebf;n Action c&#x1ea5;u h&#xec;nh trong Spring"/>
-<node COLOR="#111111" CREATED="1247458907093" FOLDED="true" ID="ID_1864371175" MODIFIED="1259467715072" TEXT=" C&#x1ea5;u h&#xec;nh Action nh&#x1b0; m&#x1ed9;t bean, k&#xf4; c&#x1ea5;u h&#xec;nh action trong strut-config.xml n&#x1eef;a">
+<node COLOR="#111111" CREATED="1247458907093" ID="ID_1864371175" MODIFIED="1292483546500" TEXT=" C&#x1ea5;u h&#xec;nh Action nh&#x1b0; m&#x1ed9;t bean, k&#xf4; c&#x1ea5;u h&#xec;nh action trong strut-config.xml n&#x1eef;a">
 <node COLOR="#111111" CREATED="1247458973656" ID="ID_1934641545" MODIFIED="1247458981468" TEXT="S&#x1eed; d&#x1ee5;ng &#x111;c DI c&#x1ee7;a Spring"/>
 <node COLOR="#111111" CREATED="1247459006671" ID="ID_340903556" MODIFIED="1247459023734">
 <richcontent TYPE="NODE"><html>
@@ -15439,6 +15439,13 @@ aPerson.getEvents().add(anEvent);</font></pre>
 </node>
 </node>
 <node COLOR="#111111" CREATED="1247459172906" ID="ID_1441788572" MODIFIED="1247459256593" TEXT="Khi request &#x111;&#x1ebf;n DelegatingRequestProcessor s&#x1ebd; y&#xea;u c&#x1ea7;u Spring application context &#xa;m&#x1ed9;t bean d&#x1ef1;a v&#xe0;o class v&#xe0; &#x111;&#x1ec3; n&#xf3; x&#x1eed; l&#xfd; request"/>
+</node>
+<node COLOR="#111111" CREATED="1292484820703" ID="ID_1111087898" MODIFIED="1292484832453" TEXT="Total d&#xf9;ng c&#x1ea3; hai k&#x1ebf;t h&#x1ee3;p v&#x1edb;i nhau">
+<node COLOR="#111111" CREATED="1292484837687" ID="ID_631241226" MODIFIED="1292484849453" TEXT="D&#xf9;ng DelegatingTilesRequestProcessor"/>
+<node COLOR="#111111" CREATED="1292484851687" ID="ID_1188869257" MODIFIED="1292484986531" TEXT="Action c&#x1ea5;u h&#xec;nh nh&#x1b0; bean trong action-servlet.xml"/>
+<node COLOR="#111111" CREATED="1292484974750" ID="ID_1111035942" MODIFIED="1292484978593" TEXT="Form, Forward th&#xec; v&#x1eab;n c&#x1ea5;u h&#xec;nh trong strut-config.xml"/>
+<node COLOR="#111111" CREATED="1292484880031" ID="ID_841081977" MODIFIED="1292484919468" TEXT="Action extend DispatchActionSupport h&#x1ed7; tr&#x1ee3; s&#x1eb5;n Spring context trong CarproAction"/>
+<node COLOR="#111111" CREATED="1292484921375" ID="ID_1243535471" MODIFIED="1292484963203" TEXT="Trong Action, c&#x1ea7;n get bean ch&#x1eb3;ng h&#x1ea1;n m&#x1ed9;t service ch&#x1ec9; c&#x1ea7;n g&#x1ecd;i getService() "/>
 </node>
 </node>
 </node>
